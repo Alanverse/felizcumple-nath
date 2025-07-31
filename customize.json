@@ -1,0 +1,30 @@
+{
+  "greeting": "Hellouuu",
+  "name": "Nath",
+  "greetingText": "Qué bonito es que estes en mi vida.",
+  "wishText": "Que tu sonrisa nunca falte, y tus sueños siempre te acompañen. ¡Feliz cumpleaños!",
+  "imagePath": "img/lydia2.png",
+  "text1": "¡Hoy es tu cumpleaños! :D",
+  "textInChatBox": "Te deseo con todo el corazón un cumpleaños lleno de alegría, amor y momentos inolvidables 🎉",
+  "sendButtonLabel": "Enviar",
+  "text2": "Quería dejarte esta pequeña sorpresa...",
+  "text3": "Sabes lo mucho que significas para mi",
+  "text4": "Y quería hacer algo",
+  "text4Adjective": "especial",
+  "text5Entry": "Porque,",
+  "text5Content": "para mí eres una persona muy especial",
+  "smiley": "😊",
+  "bigTextPart1": "A",
+  "bigTextPart2": "SÍ",
+  "wishHeading": "¡Feliz cumpleaños Nath!",
+  "outroText": "Espero que este pequeño detalle te haya gustado 🥹",
+  "replayText": "¿Quieres volver a verlo? Haz clic aquí 🌀",
+  "outroSmiley": "😊",
+  "music": "./music/bgMusic.mp3",
+  "fonts": [
+  {
+    "name": "Great Vibes",
+    "path": "https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+  }
+]
+}

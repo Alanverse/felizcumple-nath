@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>¡Feliz Cumpleaños Nath!</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="style/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <button id="playPauseButton" class="play-pause"></button>
+  <div class="startSign">
+    <p class="two">Sugerencia: Usa audífonos y reproduce la música para una mejor experiencia 😊</p>
+    <p id="startButton" class="two button">¿Lista? ¡Empecemos!</p>
+  </div>
+
+  <div class="container">
+    <div class="one">
+      <h1 class="one">
+        <span data-node-name="greeting">Hola</span>
+        <span data-node-name="name">Nath</span>
+      </h1>
+      <p class="two" data-node-name="greetingText">¡Tu nombre me encanta, por cierto!</p>
+    </div>
+    <div class="three">
+      <p data-node-name="text1">¡Es tu cumpleaños! :D</p>
+    </div>
+    <div class="four">
+      <div class="text-box">
+        <p class="hbd-chatbox" data-node-name="textInChatBox">¡Feliz cumpleaños para ti! ¡Yeee! Muchos muchos buenos deseos...</p>
+        <p class="fake-btn" data-node-name="sendButtonLabel">Enviar</p>
+      </div>
+    </div>
+    <div class="five">
+      <p class="idea-1" data-node-name="text2">Eso era lo que iba a hacer.</p>
+      <p class="idea-2" data-node-name="text3">Pero luego me detuve.</p>
+      <p class="idea-3">
+        <span data-node-name="text4">Me di cuenta de que quería hacer algo</span>
+        <strong data-node-name="text4Adjective">especial</strong>.
+      </p>
+      <p class="idea-4" data-node-name="text5Entry">Porque,</p>
+      <p class="idea-5">
+        <span data-node-name="text5Content">Eres especial</span>
+        <span class="smiley" data-node-name="smiley">😊</span>
+      </p>
+      <p class="idea-6">
+        <span data-node-name="bigTextPart1">A</span>
+        <span data-node-name="bigTextPart2">SÍ</span>
+      </p>
+    </div>
+    <div class="six">
+      <img src="img/jing.jpg" alt="" class="lydia-dp" data-node-name="imagePath">
+      <img src="img/hat.svg" alt="" class="hat">
+      <div class="wish">
+        <h3 class="wish-hbd" data-node-name="wishHeading">¡Feliz cumpleaños!</h3>
+        <h5 data-node-name="wishText">¡Que tus días estén llenos de alegría y sorpresas hermosas!</h5>
+      </div>
+    </div>
+    <div class="seven">
+      <!-- globos intactos -->
+    </div>
+    <div class="eight">
+      <!-- fuegos artificiales -->
+    </div>
+    <div class="nine">
+      <p data-node-name="outroText">Bueno, ahora dime si te gustó 😄</p>
+      <p id="replay" data-node-name="replayText">O haz clic aquí para verlo otra vez.</p>
+      <p class="last-smile" data-node-name="outroSmiley">😊</p>
+    </div>
+    <canvas id="fireworksCanvas"></canvas>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script type="application/javascript" src="script/main.js"></script>
+<script type="application/javascript" src="script/firework.js"></script>
+</html>
